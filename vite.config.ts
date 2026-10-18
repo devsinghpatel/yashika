@@ -1,6 +1,6 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
-import {readFileSync} from 'node:fs';
+import {readdirSync, readFileSync} from 'node:fs';
 import path from 'path';
 import {defineConfig, Plugin} from 'vite';
 
@@ -8,11 +8,31 @@ function contentManifestPlugin(): Plugin {
   return {
     name: 'content-manifest',
     generateBundle() {
+      const root = __dirname;
       this.emitFile({
         type: 'asset',
         fileName: 'content.json',
-        source: readFileSync(path.resolve(__dirname, 'content.json'), 'utf8')
+        source: readFileSync(path.resolve(root, 'content.json'), 'utf8')
       });
+
+      const emitMediaFiles = (directory: string) => {
+        readdirSync(directory, {withFileTypes: true}).forEach((entry) => {
+          const filePath = path.join(directory, entry.name);
+          if (entry.isDirectory()) {
+            emitMediaFiles(filePath);
+            return;
+          }
+          if (!entry.isFile()) return;
+
+          this.emitFile({
+            type: 'asset',
+            fileName: path.relative(root, filePath).split(path.sep).join('/'),
+            source: readFileSync(filePath)
+          });
+        });
+      };
+
+      emitMediaFiles(path.resolve(root, 'media'));
     }
   };
 }
