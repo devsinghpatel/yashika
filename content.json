@@ -226,12 +226,6 @@
         "memory": "Remember made vedeo edit on my bday. This one is for you"
       },
       {
-        "id": 4,
-        "icon": "pets",
-        "label": "Doggo",
-        "memory": "Named my dog \"ARCHY\"."
-      },
-      {
         "id": 5,
         "icon": "wine_bar",
         "label": "TEA SPILL",
@@ -252,7 +246,7 @@
         "id": "photo-01",
         "type": "image",
         "src": "media/photos/WhatsApp Image 2026-10-17 at 1.04.28 PM.jpeg",
-        "title": "Photo 01",
+        "title": "sundar log 😍",
         "date": "17 Oct 2026",
         "chapter": "Birthday Memories"
       },
@@ -292,7 +286,7 @@
         "id": "photo-06",
         "type": "image",
         "src": "media/photos/WhatsApp Image 2026-10-17 at 1.04.59 PM.jpeg",
-        "title": "Photo 06",
+        "title": "padhaku Ladki 😒",
         "date": "17 Oct 2026",
         "chapter": "Birthday Memories"
       },
@@ -300,7 +294,7 @@
         "id": "photo-07",
         "type": "image",
         "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.00 PM.jpeg",
-        "title": "Photo 07",
+        "title": "kya soch rhi??",
         "date": "17 Oct 2026",
         "chapter": "Birthday Memories"
       },
@@ -332,7 +326,7 @@
         "id": "photo-11",
         "type": "image",
         "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.05 PM.jpeg",
-        "title": "Photo 11",
+        "title": "aesthetic log...",
         "date": "17 Oct 2026",
         "chapter": "Birthday Memories"
       },
@@ -348,7 +342,7 @@
         "id": "photo-13",
         "type": "image",
         "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.06 PM.jpeg",
-        "title": "Photo 13",
+        "title": "kispe gussa ho?😫",
         "date": "17 Oct 2026",
         "chapter": "Birthday Memories"
       },
@@ -356,7 +350,7 @@
         "id": "photo-14",
         "type": "image",
         "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.07 PM (1).jpeg",
-        "title": "Photo 14",
+        "title": "beautifull smile",
         "date": "17 Oct 2026",
         "chapter": "Birthday Memories"
       },
@@ -381,7 +375,7 @@
       {
         "id": "video-01",
         "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.36 PM.mp4",
-        "title": "Video memory 01"
+        "title": "Chammak Challo🔥"
       },
       {
         "id": "video-02",
@@ -391,7 +385,7 @@
       {
         "id": "video-03",
         "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.38 PM.mp4",
-        "title": "Video memory 03"
+        "title": "ohkeeyyy"
       },
       {
         "id": "video-04",
@@ -401,7 +395,7 @@
       {
         "id": "video-05",
         "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.57 PM (1).mp4",
-        "title": "Video memory 05"
+        "title": "done forget to smile"
       },
       {
         "id": "video-06",
@@ -416,7 +410,7 @@
       {
         "id": "video-08",
         "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.05.00 PM.mp4",
-        "title": "Video memory 08"
+        "title": "omfoo...aestheticss"
       },
       {
         "id": "video-09",
@@ -431,7 +425,7 @@
       {
         "id": "video-11",
         "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.05.04 PM.mp4",
-        "title": "Video memory 11"
+        "title": "cutiee"
       },
       {
         "id": "video-12",
@@ -569,7 +563,7 @@
     "audioPlayerLabel": "Selected birthday audio track",
     "trackListLabel": "Choose an audio track",
     "emptyTracksMessage": "No audio tracks have been added yet.",
-    "author": "Chloe",
+    "author": "DEV",
     "memoMeta": "Voice memo recorded at 2:14 AM",
     "speechBubbles": [
       {
@@ -590,23 +584,23 @@
     "totalDuration": "02:45",
     "tracks": [
       {
-        "title": "Voice note 1",
+        "title": "KALAKAR LOG",
         "src": "media/audio/WhatsApp Video 2026-10-17 at 1.04.59 PM.mp4"
       },
       {
-        "title": "Voice note 2",
+        "title": "FAV ONE",
         "src": "media/audio/WhatsApp Video 2026-10-17 at 1.05.01 PM (2).mp4"
       },
       {
-        "title": "Voice note 3",
+        "title": "another banger",
         "src": "media/audio/WhatsApp Video 2026-10-17 at 1.05.01 PM.mp4"
       },
       {
-        "title": "Voice note 4",
+        "title": "bade achhe lagte hain.....",
         "src": "media/audio/WhatsApp Video 2026-10-17 at 1.05.02 PM (1).mp4"
       },
       {
-        "title": "Voice note 5",
+        "title": "emotional one",
         "src": "media/audio/WhatsApp Video 2026-10-17 at 1.05.02 PM.mp4"
       }
     ],
@@ -618,11 +612,11 @@
     "salutation": "Dear Maya,",
     "paragraphs": [
       "Life with you is pure unfiltered cinematic chaos — and I wouldn't trade a single second for the quietest sanity on earth.",
-      "Thank you for being the person who answers FaceTime calls while brushing teeth, who shares fries without an eye-roll, and who celebrates every tiny win like an Olympic gold medal.",
+      "Thank you for being the person who listen to all my problems, who shares fries without an eye-roll, and who celebrates every tiny win like an Olympic gold medal.",
       "You make every single room warmer just by existing in it. Here is to another year of being completely, unapologetically unhinged together."
     ],
     "signoff": "Forever your ride-or-die,",
-    "signature": "Chloe 💖",
+    "signature": "DEV💖",
     "psNote": "P.S. Yes, we are ordering spicy noodles tonight! 🥢",
     "continue": "Proceed to the Cake →"
   },
@@ -652,7 +646,7 @@
         "tag": "EMERGENCY COMFORT",
         "title": "Open when you're sad",
         "subtitle": "Instant serotonin boost",
-        "body": "\"Maya, you have survived 100% of your hardest days so far. Put on your comfiest oversized sweater, turn off Slack, and call me right this second. Boba is already on the way.\""
+        "body": "\"Yashica, you have survived 100% of your hardest days so far. Put on your comfiest oversized sweater, turn off Slack, and call me right this second. Boba is already on the way.\""
       },
       {
         "id": "miss",
@@ -668,7 +662,7 @@
         "tag": "UNHINGED VAULT",
         "title": "Open for unhinged laugh",
         "subtitle": "Unreleased gallery memes",
-        "body": "\"Remember when you attempted to parallel park in front of that busy café and accidentally honked to the beat of ABBA for 4 straight minutes? I have the video backed up to 3 separate cloud drives.\""
+        "body": "\"Remember you deserve all the smile a little for me. my adrak jiiii\""
       }
     ]
   },
