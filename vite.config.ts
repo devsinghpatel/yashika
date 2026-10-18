@@ -1,7 +1,21 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
+import {readFileSync} from 'node:fs';
 import path from 'path';
 import {defineConfig, Plugin} from 'vite';
+
+function contentManifestPlugin(): Plugin {
+  return {
+    name: 'content-manifest',
+    generateBundle() {
+      this.emitFile({
+        type: 'asset',
+        fileName: 'content.json',
+        source: readFileSync(path.resolve(__dirname, 'content.json'), 'utf8')
+      });
+    }
+  };
+}
 
 function apiSavePlugin(): Plugin {
   return {
@@ -52,7 +66,7 @@ function apiSavePlugin(): Plugin {
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss(), apiSavePlugin()],
+    plugins: [react(), tailwindcss(), contentManifestPlugin(), apiSavePlugin()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
@@ -64,4 +78,3 @@ export default defineConfig(() => {
     },
   };
 });
-
