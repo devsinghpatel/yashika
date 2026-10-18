@@ -1,0 +1,10 @@
+{
+  "name": "Gooey Aurora Birthday Experience",
+  "description": "A mobile-first, highly animated, liquid-themed interactive birthday celebration for [HER_NAME] with 12 sensorial screens, 3D memory gallery, minigames, audio notes, and live CMS admin.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

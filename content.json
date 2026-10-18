@@ -1,0 +1,680 @@
+{
+  "siteTitle": "A birthday celebration for YASHICA",
+  "siteDescription": "A birthday celebration filled with favorite photos, videos, and voice notes.",
+  "theme": {
+    "palette": "Vibrant Sunset",
+    "surface": "#FFF8F8",
+    "surfaceDim": "#EADADA",
+    "canvasBack": "#EADADA",
+    "surfaceGlass": "#FFF8F8",
+    "primary": "#4D3A4D",
+    "onPrimary": "#FFFFFF",
+    "secondary": "#4D3A4D",
+    "secondaryContainer": "#D59CC5",
+    "accentVeil": "#D59CC5",
+    "highlightPop": "#BE5CA9",
+    "mutedShade": "#6B5E6B",
+    "auroraColors": [
+      "#D59CC5",
+      "#BE5CA9",
+      "#EADADA",
+      "#FFF8F8"
+    ],
+    "viscosity": 0.78,
+    "blobSpeed": "2.4s",
+    "auroraIntensity": 0.92,
+    "fontHeading": "Young Serif",
+    "fontBody": "Outfit",
+    "fontHandwritten": "Outfit"
+  },
+  "recipientName": "YASHIKA",
+  "friendName": "DEV",
+  "tagline": "Officially another year hotter and still tolerating me through thick and thin.",
+  "heartMeter": "68%",
+  "flow": [
+    "intro",
+    "gift",
+    "nameReveal",
+    "bubbles",
+    "gallery",
+    "videos",
+    "game",
+    "scratch",
+    "voice",
+    "letter",
+    "cake",
+    "finale"
+  ],
+  "common": {
+    "appName": "BdayCelebration",
+    "heartMeterLabel": "Heart Meter",
+    "previewButton": "Preview",
+    "adminCms": "Admin CMS",
+    "footerNote": "Handmade with love for the best birthday ever",
+    "copyright": "© 2025 CELEBRATION STUDIO",
+    "startOver": "Start Over ↺",
+    "soundOn": "Unmute Audio",
+    "soundOff": "Mute Audio",
+    "back": "Back",
+    "next": "Continue",
+    "tapToProceed": "Tap anywhere to continue",
+    "loading": "Distilling liquid memories...",
+    "screenNames": {
+      "intro": "Intro",
+      "gift": "Dodging Gift",
+      "nameReveal": "Liquid Reveal",
+      "quiz": "Quiz",
+      "bubbles": "Memories",
+      "gallery": "Photos",
+      "videos": "Videos",
+      "game": "Catch Game",
+      "scratch": "Scratch Cards",
+      "voice": "Audio",
+      "letter": "Love Letter",
+      "cake": "Cake & Candles",
+      "finale": "Grand Finale"
+    }
+  },
+  "intro": {
+    "stepTag": "SCREEN 01 • ENTRY GATE",
+    "timeLabel": "23:59",
+    "restrictedBadge": "RESTRICTED VIP ONLY",
+    "headline": "Psst, is anyone looking?",
+    "subheading": "A clandestine, whisper-toned prelude just for your eyes.",
+    "caption": "tap to make sure nobody's watching...",
+    "whisperQuote": ".",
+    "accessGranted": "ACCESS GRANTED. Verifying you're the hottest human alive... ✨",
+    "hint": "Tap directly on the pulsating violet orb to start your journey"
+  },
+  "gift": {
+    "stepTag": "STAGE 02 / 12",
+    "trollBadge": "Troll Level: MAX",
+    "title": "Careful now...",
+    "subtitle": "You didn't think opening your main birthday gift was going to be that easy, did you miss??",
+    "ctaText": "Open your surprise",
+    "caughtTitle": "CAUGHT IT!",
+    "caughtSubtitle": "Melting into your VIP portal... ✨",
+    "attemptLabel": "Attempt meter:",
+    "patienceLabel": "Patience: 98%",
+    "maxDodges": 2,
+    "taunts": [
+      "Too slow babe ;P",
+      "Almost had it!",
+      "Gotta be quicker than that!",
+      "Nope! Not yet!",
+      "One more try, I promise!"
+    ]
+  },
+  "nameReveal": {
+    "stepTag": "CHAPTER 01",
+    "badge": "BIRTHDAY QUEEN MODE: UNLOCKED",
+    "subtitle": "Officially another year hotter and still tolerating me.",
+    "handwrittenNote": "\"HAPPY BIRTHDAYYYYYY !!! ❤️🎇\"",
+    "ctaText": "Continue Journey",
+    "hintText": "Tap to enter memory archives"
+  },
+  "quiz": {
+    "stepTag": "BFF INTEL CHECK",
+    "caseFileTag": "Case File #048",
+    "scoreLabel": "Score: 100% Friend Telepathy",
+    "questions": [
+      {
+        "q": "Who was more chaotic on our 2 AM taco run?",
+        "options": [
+          "A) You (obviously, you sang to the salsa bar)",
+          "B) Both of us equally, RIP our dignity",
+          "C) The drive-thru guy who gave us extra churros",
+          "D) I refuse to testify without my lawyer"
+        ],
+        "answer": 1,
+        "rightMsg": "Iconic genius behavior! Telepathy score 100% 💖✨",
+        "wrongMsg": "Excuse me?! Did you hit your head? Try again babe! 😂"
+      },
+      {
+        "q": "What is our official emergency comfort protocol?",
+        "options": [
+          "A) Staring at ceiling in mutual silence",
+          "B) Ordering $74 worth of sushi and debriefing",
+          "C) Sending TikToks while sitting in the same room",
+          "D) All of the above, immediately"
+        ],
+        "answer": 3,
+        "rightMsg": "Unmatched friendship science. Every single one is mandatory! 🍣",
+        "wrongMsg": "Fake fan! You know we do all of them without hesitation! 💅"
+      },
+      {
+        "q": "What song is permanently banned from aux cord privileges?",
+        "options": [
+          "A) The cursed country remix you listened to for 3 weeks",
+          "B) That French house track that made us miss our exit",
+          "C) None, we are the greatest DJs alive",
+          "D) The 10-minute version of All Too Well sung off-pitch"
+        ],
+        "answer": 2,
+        "rightMsg": "Correct! Our playlist curation is flawless and unmatched! 🎶",
+        "wrongMsg": "Blasphemy! You know our car karaoke is award-winning! 🎤"
+      },
+      {
+        "q": "If we were stranded on a deserted island, who survives first?",
+        "options": [
+          "A) You, by befriending a dolphin pod",
+          "B) Me, by complaining until someone rescues us",
+          "C) Neither, we starve while filming a GRWM",
+          "D) We start a beach club within 48 hours"
+        ],
+        "answer": 3,
+        "rightMsg": "Beach club VIP tickets already on sale! 🍹🏖️",
+        "wrongMsg": "Give us more credit! We'd have coconut lattes in no time! 🥥"
+      },
+      {
+        "q": "How long can we go without speaking before it feels weird?",
+        "options": [
+          "A) 12 hours max",
+          "B) 47 minutes",
+          "C) 3 days (we're busy adults)",
+          "D)"
+        ],
+        "answer": 3,
+        "rightMsg": "Direct neural link verified. Bestie wifi always 5G! 📡💖",
+        "wrongMsg": "Wrong! The telepathy never shuts down! 🧠✨"
+      },
+      {
+        "q": "What is the single most dangerous item in our shared custody?",
+        "options": [
+          "dcs",
+          "B) The unreleased photo vault in 'Recently Deleted'",
+          "C) The joint impulse purchases past 11 PM",
+          "D) Our unfiltered group FaceTime sessions"
+        ],
+        "answer": 1,
+        "rightMsg": "Classified national secrets level vault! Vault guarded! 🔐🔥",
+        "wrongMsg": "Close, but the photo vault would literally crash the internet! 📸"
+      }
+    ],
+    "finalMessages": {
+      "high": "Perfection! 100% Friend Telepathy verified. Soulmate status confirmed! 💖✨",
+      "mid": "Certified bestie status! A few questionable memories, but I still love you! 🥂",
+      "low": "Are we sure your brother didn't steal your phone?! Still tolerating you though! 😂"
+    }
+  },
+  "bubbles": {
+    "stepTag": "SCREEN 05 • TACTILE POP",
+    "title": "Memory Bubbles",
+    "subtitle": "10 translucent, floating iridescent memory spheres drifting subtly. Tap each bubble to unfreeze full gallery.",
+    "counterSuffix": "Explored",
+    "popAllButton": "Pop All (Unlock Secret)",
+    "resetButton": "Reset Bubbles",
+    "unlockHeading": "VAULT UNLOCKED! ✨",
+    "unlockMessage": "All  memories liberated! The photo scrapbook and video gallery are ready to explore.",
+    "items": [
+      {
+        "id": 1,
+        "icon": "local_cafe",
+        "label": "First",
+        "memory": "MET FIRST TIME AT SCHOOL ANNUAL FUNCTION. "
+      },
+      {
+        "id": 2,
+        "icon": "flight_takeoff",
+        "label": "DISTANCE",
+        "memory": "A DISTANCE OF 1000KMS !!! BUT STILL INTACT FRIENDSHIP."
+      },
+      {
+        "id": 3,
+        "icon": "festival",
+        "label": "Front Row",
+        "memory": "Remember made vedeo edit on my bday. This one is for you"
+      },
+      {
+        "id": 4,
+        "icon": "pets",
+        "label": "Doggo",
+        "memory": "Named my dog \"ARCHY\"."
+      },
+      {
+        "id": 5,
+        "icon": "wine_bar",
+        "label": "TEA SPILL",
+        "memory": "Our too muchhh talks in college...."
+      }
+    ]
+  },
+  "gallery": {
+    "stepTag": "THE SCRAPBOOK",
+    "title": "Our little moments",
+    "subtitle": "Every photo you added, together in one place. Tap any photo to see it up close.",
+    "continueButton": "See our videos →",
+    "photoCountLabel": "{count} photos",
+    "photoAltText": "Photo {number} from the birthday photo collection",
+    "closeViewerLabel": "Close photo",
+    "items": [
+      {
+        "id": "photo-01",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.04.28 PM.jpeg",
+        "title": "Photo 01",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-02",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.04.37 PM.jpeg",
+        "title": "Photo 02",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-03",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.04.58 PM (1).jpeg",
+        "title": "Photo 03",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-04",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.04.58 PM.jpeg",
+        "title": "Photo 04",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-05",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.04.59 PM (1).jpeg",
+        "title": "Photo 05",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-06",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.04.59 PM.jpeg",
+        "title": "Photo 06",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-07",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.00 PM.jpeg",
+        "title": "Photo 07",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-08",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.03 PM (1).jpeg",
+        "title": "Photo 08",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-09",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.03 PM.jpeg",
+        "title": "Photo 09",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-10",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.04 PM.jpeg",
+        "title": "Photo 10",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-11",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.05 PM.jpeg",
+        "title": "Photo 11",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-12",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.06 PM (1).jpeg",
+        "title": "Photo 12",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-13",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.06 PM.jpeg",
+        "title": "Photo 13",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-14",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.07 PM (1).jpeg",
+        "title": "Photo 14",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      },
+      {
+        "id": "photo-15",
+        "type": "image",
+        "src": "media/photos/WhatsApp Image 2026-10-17 at 1.05.07 PM.jpeg",
+        "title": "Photo 15",
+        "date": "17 Oct 2026",
+        "chapter": "Birthday Memories"
+      }
+    ]
+  },
+  "videos": {
+    "stepTag": "SCREEN 07 • LITTLE MOMENTS IN MOTION",
+    "title": "Video memories",
+    "subtitle": "All the clips you added, ready to play with sound and full playback controls.",
+    "continueButton": "Continue the birthday journey →",
+    "videoCountLabel": "{count} videos",
+    "videoError": "This video could not be played in this browser.",
+    "items": [
+      {
+        "id": "video-01",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.36 PM.mp4",
+        "title": "Video memory 01"
+      },
+      {
+        "id": "video-02",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.37 PM.mp4",
+        "title": "Video memory 02"
+      },
+      {
+        "id": "video-03",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.38 PM.mp4",
+        "title": "Video memory 03"
+      },
+      {
+        "id": "video-04",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.56 PM.mp4",
+        "title": "Video memory 04"
+      },
+      {
+        "id": "video-05",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.57 PM (1).mp4",
+        "title": "Video memory 05"
+      },
+      {
+        "id": "video-06",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.57 PM.mp4",
+        "title": "Video memory 06"
+      },
+      {
+        "id": "video-07",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.04.58 PM.mp4",
+        "title": "Video memory 07"
+      },
+      {
+        "id": "video-08",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.05.00 PM.mp4",
+        "title": "Video memory 08"
+      },
+      {
+        "id": "video-09",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.05.01 PM (1).mp4",
+        "title": "Video memory 09"
+      },
+      {
+        "id": "video-10",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.05.03 PM.mp4",
+        "title": "Video memory 10"
+      },
+      {
+        "id": "video-11",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.05.04 PM.mp4",
+        "title": "Video memory 11"
+      },
+      {
+        "id": "video-12",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.05.05 PM (1).mp4",
+        "title": "Video memory 12"
+      },
+      {
+        "id": "video-13",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.05.05 PM.mp4",
+        "title": "Video memory 13"
+      },
+      {
+        "id": "video-14",
+        "src": "media/vedeos/WhatsApp Video 2026-10-17 at 1.05.07 PM.mp4",
+        "title": "Video memory 14"
+      }
+    ]
+  },
+  "game": {
+    "stepTag": "SCREEN 08 • ARCADE BLOB",
+    "title": "Catch Falling Treats",
+    "subtitle": "Slide your paddle to catch matcha, ramen, and chaos snacks while dodging bad vibes!",
+    "targetScore": 500,
+    "wishUnlockInterval": 2,
+    "helperText": "Slide paddle to collect snacks! Every 2 catches reveals a birthday wish line.",
+    "winTitle": "CHALLENGE CLEARED! 🏆",
+    "winHeading": "You caught all my love (and snacks)!",
+    "winNote": "Unlocked Wish : Unlimited late-night chit chat runs on Dev's tab forever 💖",
+    "playAgain": "Play Again",
+    "continue": "Proceed to Scratch Cards →",
+    "items": [
+      {
+        "emoji": "🍵",
+        "name": "Matcha Latte",
+        "pts": 100,
+        "isGood": true
+      },
+      {
+        "emoji": "🍜",
+        "name": "Spicy Noodles",
+        "pts": 150,
+        "isGood": true
+      },
+      {
+        "emoji": "🐸✨",
+        "name": "Chaos Meme",
+        "pts": 200,
+        "isGood": true
+      },
+      {
+        "emoji": "🐱",
+        "name": "Cute Cat",
+        "pts": 250,
+        "isGood": true
+      },
+      {
+        "emoji": "⏰",
+        "name": "Monday Morning Alarm",
+        "pts": -100,
+        "isGood": false
+      }
+    ],
+    "wishLines": [
+      "May your iced coffees always be sweet and your skin perpetually glowing.",
+      "May you never have to parallel park in front of an outdoor café audience.",
+      "May our spontaneous trip ideas always become booked flight confirmations.",
+      "May you continue to out-dress every person in every room you enter.",
+      "May we stay completely, unapologetically unhinged for the next 70 years."
+    ]
+  },
+  "scratch": {
+    "stepTag": "SCREEN 09 • FOIL TICKETS",
+    "title": "Scratch for 8 Real Truths",
+    "subtitle": "Tap or drag across holographic foil to reveal Chloe's secrets & golden coupons.",
+    "helper": "Tap or scratch cards to uncover (reveals at 60%)",
+    "revealAll": "Reveal All",
+    "continue": "Listen to Voice Note →",
+    "cards": [
+      {
+        "id": 1,
+        "title": "REASON #1",
+        "tag": "Verified true!",
+        "text": "You never judge my questionable 1 AM life choices."
+      },
+      {
+        "id": 2,
+        "title": "GOLDEN COUPON",
+        "tag": "Redeemable anytime",
+        "text": "Free Emergency Boba & Vent Session (No questions asked)."
+      },
+      {
+        "id": 3,
+        "title": "REASON #2",
+        "tag": "Scientifically proven",
+        "text": "Your laugh can cure clinically diagnosed boredom in 2 seconds flat."
+      },
+      {
+        "id": 4,
+        "title": "GOLDEN COUPON",
+        "tag": "Chloe's treat",
+        "text": "One (1) Free Late-Night Drive-Thru Run with aux cord priority."
+      },
+      {
+        "id": 5,
+        "title": "REASON #3",
+        "tag": "Unfiltered truth",
+        "text": "Best co-pilot for spontaneous 3-hour playlist debriefs."
+      },
+      {
+        "id": 6,
+        "title": "REASON #4",
+        "tag": "Forever grateful",
+        "text": "You remember every single person I pretend to dislike."
+      },
+      {
+        "id": 7,
+        "title": "REASON #5",
+        "tag": "Soulmate energy",
+        "text": "Because nobody else matches my chaos frequency effortlessly."
+      },
+      {
+        "id": 8,
+        "title": "SPECIAL VOUCHER",
+        "tag": "No expiration",
+        "text": "One free pass to pick whatever awful movie we watch next movie night."
+      }
+    ]
+  },
+  "voice": {
+    "stepTag": "SCREEN 10 • AUDIO MEMO",
+    "title": "Secret Audio Voice Note",
+    "subtitle": "Choose a voice note and press play. Audio recordings play without showing video.",
+    "trackCountLabel": "{count} audio tracks",
+    "audioError": "This audio track could not be played in this browser.",
+    "audioPlayerLabel": "Selected birthday audio track",
+    "trackListLabel": "Choose an audio track",
+    "emptyTracksMessage": "No audio tracks have been added yet.",
+    "author": "Chloe",
+    "memoMeta": "Voice memo recorded at 2:14 AM",
+    "speechBubbles": [
+      {
+        "emoji": "😭",
+        "text": "\"Wait, don't cry yet...\""
+      },
+      {
+        "emoji": "✨",
+        "text": "\"Remember Paris 2023?!\""
+      },
+      {
+        "emoji": "💖",
+        "text": "\"You are my favorite human\""
+      }
+    ],
+    "instruction": "Press & hold to hear a very confidential message from your favorite human",
+    "tapHint": "Tap orb to toggle play / pause",
+    "totalDuration": "02:45",
+    "tracks": [
+      {
+        "title": "Voice note 1",
+        "src": "media/audio/WhatsApp Video 2026-10-17 at 1.04.59 PM.mp4"
+      },
+      {
+        "title": "Voice note 2",
+        "src": "media/audio/WhatsApp Video 2026-10-17 at 1.05.01 PM (2).mp4"
+      },
+      {
+        "title": "Voice note 3",
+        "src": "media/audio/WhatsApp Video 2026-10-17 at 1.05.01 PM.mp4"
+      },
+      {
+        "title": "Voice note 4",
+        "src": "media/audio/WhatsApp Video 2026-10-17 at 1.05.02 PM (1).mp4"
+      },
+      {
+        "title": "Voice note 5",
+        "src": "media/audio/WhatsApp Video 2026-10-17 at 1.05.02 PM.mp4"
+      }
+    ],
+    "continue": "Read Love Letter →"
+  },
+  "letter": {
+    "stepTag": "SCREEN 11 • PRIVATE CORRESPONDENCE",
+    "postmark": "Postmarked: Today & Always",
+    "salutation": "Dear Maya,",
+    "paragraphs": [
+      "Life with you is pure unfiltered cinematic chaos — and I wouldn't trade a single second for the quietest sanity on earth.",
+      "Thank you for being the person who answers FaceTime calls while brushing teeth, who shares fries without an eye-roll, and who celebrates every tiny win like an Olympic gold medal.",
+      "You make every single room warmer just by existing in it. Here is to another year of being completely, unapologetically unhinged together."
+    ],
+    "signoff": "Forever your ride-or-die,",
+    "signature": "Chloe 💖",
+    "psNote": "P.S. Yes, we are ordering spicy noodles tonight! 🥢",
+    "continue": "Proceed to the Cake →"
+  },
+  "cake": {
+    "stepTag": "SCREEN 12 • CANDLE WISH",
+    "title": "Cake & Candles",
+    "micPrompt": "🎙️ Blow into mic (or tap candles) to wish!",
+    "stateLit": "STATE: CANDLES LIT & FLICKERING",
+    "promptLit": "Make a wish, Maya!",
+    "stateBlown": "STATE: CANDLES BLOWN OUT! ✨",
+    "promptBlown": "Wish registered with the universe! Tap to see the grand finale!",
+    "continue": "Enter Grand Finale →"
+  },
+  "finale": {
+    "stepTag": "SCREEN 13 • GRAND FINALE",
+    "cherishedBadge": "YOU ARE CHERISHED BEYOND WORDS",
+    "heading": "Happy Birthday, Maya!",
+    "subheading": "The journey never ends — keep these envelopes safe 💖",
+    "capsulesHeading": "Your Emergency Capsules",
+    "replyLabel": "Send Spicy Voice Reply to Chloe 💌",
+    "replyLink": "https://api.whatsapp.com/send?text=Chloe%20you%20are%20insane%20and%20I%20love%20you!%20Best%20birthday%20ever%20%E2%9C%A8",
+    "replayLabel": "Replay Experience from Start",
+    "envelopes": [
+      {
+        "id": "sad",
+        "emoji": "🌧️",
+        "tag": "EMERGENCY COMFORT",
+        "title": "Open when you're sad",
+        "subtitle": "Instant serotonin boost",
+        "body": "\"Maya, you have survived 100% of your hardest days so far. Put on your comfiest oversized sweater, turn off Slack, and call me right this second. Boba is already on the way.\""
+      },
+      {
+        "id": "miss",
+        "emoji": "✈️",
+        "tag": "DISTANCE ERASER",
+        "title": "Open when you miss me",
+        "subtitle": "Memories & voice files",
+        "body": "\"Check voice memo #44 on your phone where we laughed so hard at the airport gate that we choked on iced coffee. We are under the exact same moon right now, bestie.\""
+      },
+      {
+        "id": "laugh",
+        "emoji": "🤣",
+        "tag": "UNHINGED VAULT",
+        "title": "Open for unhinged laugh",
+        "subtitle": "Unreleased gallery memes",
+        "body": "\"Remember when you attempted to parallel park in front of that busy café and accidentally honked to the beat of ABBA for 4 straight minutes? I have the video backed up to 3 separate cloud drives.\""
+      }
+    ]
+  },
+  "easterEgg": {
+    "tapsRequired": 5,
+    "title": "SECRET BFF VAULT UNLOCKED! 💖",
+    "message": "You found the hidden easter egg! You are officially crowned the GOAT best friend. Lifetime voucher for free tacos, iced matcha, and 3 AM therapy sessions."
+  }
+}
